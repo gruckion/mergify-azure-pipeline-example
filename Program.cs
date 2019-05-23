@@ -7,6 +7,7 @@ namespace mergify_azure_pipeline_example
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            //hack
         }
     }
 }
