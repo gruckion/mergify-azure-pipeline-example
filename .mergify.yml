@@ -1,7 +1,6 @@
 pull_request_rules:
   - name: automatic merge when CI passes
     conditions:
-      - "#approved-reviews-by>=2"
       - status-success=gruckion.mergify-azure-pipeline-example
       - base=master
     actions:
