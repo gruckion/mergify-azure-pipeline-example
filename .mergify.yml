@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: Automatic merge
     conditions:
-      - status-sucess=ci/gruckion.mergify-azure-pipeline-example
+      - status-sucess=gruckion.mergify-azure-pipeline-example
     actions:
       merge:
         method: squash
